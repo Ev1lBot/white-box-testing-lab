@@ -2,7 +2,7 @@ import ast
 import networkx as nx
 from matplotlib import pyplot as plt
 
-with open("white-box-testing-lab/auth.py", "r") as f:
+with open("auth.py", "r") as f:
     code = f.read()
 
 tree = ast.parse(code)
